@@ -1,0 +1,17 @@
+# Настройки приложений из desired-apps.toml (ассоциации, dotfiles — см. apply_settings_to_desired_apps.bat).
+
+[associations.widno_photos]
+github_app = "widno"
+prog_id = "Widno.Image"
+friendly_name = "Widno image"
+extensions = [
+  ".jpg",
+  ".jpeg",
+  ".png",
+  ".webp",
+  ".gif",
+  ".bmp",
+  ".tif",
+  ".tiff",
+  ".heic",
+]

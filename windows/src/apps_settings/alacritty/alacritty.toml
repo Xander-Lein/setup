@@ -1,0 +1,73 @@
+[general]
+live_config_reload = true
+working_directory = "{{MSYS2_HOME}}"
+
+[env]
+TERM = "xterm-256color"
+MSYSTEM = "{{MSYS2_MSYSTEM}}"
+CHERE_INVOKING = "1"
+
+[window]
+padding = { x = 12, y = 12 }
+decorations = "None"
+
+[font]
+size = 14.0
+
+[terminal]
+shell = { program = "{{MSYS2_BASH}}", args = ["-il"] }
+osc52 = "OnlyCopy"
+
+[selection]
+save_to_clipboard = true
+
+# Shift+стрелки — фиксированные CSI для zsh (.zsh-hotkeys.zsh).
+[[keyboard.bindings]]
+key = "Left"
+mods = "Shift"
+chars = "\u001b[1;2D"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Shift"
+chars = "\u001b[1;2C"
+
+[[keyboard.bindings]]
+key = "Left"
+mods = "Control|Shift"
+chars = "\u001b[1;6D"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Control|Shift"
+chars = "\u001b[1;6C"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+chars = "\u001b;c"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "Backspace"
+mods = "Control"
+chars = "\u0017"
+
+[[keyboard.bindings]]
+key = "Delete"
+mods = "Control"
+chars = "\u001b[3;5~"
+
+[[keyboard.bindings]]
+key = "Escape"
+mods = "None"
+chars = "\u0003"

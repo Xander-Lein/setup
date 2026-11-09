@@ -1,0 +1,70 @@
+# Список приложений: winget + GitHub Releases.
+# Настройки (ассоциации и т.д.) — desired-apps-settings.toml
+
+[winget]
+accept_source_agreements = true
+
+[utilities]
+apps = [
+  "7zip.7zip",
+  "voidtools.Everything.Beta",
+  "AutoHotkey.AutoHotkey",
+  "Obsidian.Obsidian",
+  "Balena.Etcher",
+]
+
+[security]
+apps = [
+  "KeePassXCTeam.KeePassXC",
+]
+
+[remote]
+apps = [
+  "Tailscale.Tailscale",
+  "Google.GoogleDrive",
+  "qBittorrent.qBittorrent",
+  "Throneproj.Throne",
+]
+
+[browser]
+apps = [
+  "Zen-Team.Zen-Browser",
+]
+
+[development]
+apps = [
+  "Git.Git",
+  "Python.Python.3.12",
+  "Neovim.Neovim",
+  "Anysphere.Cursor",
+  "GodotEngine.GodotEngine",
+  "Tableau.Public",
+  "Google.PlatformTools",
+]
+
+[terminal]
+apps = [
+  "MSYS2.MSYS2",
+  "Alacritty.Alacritty",
+]
+
+[media]
+apps = [
+  "VideoLAN.VLC",
+  "OBSProject.OBSStudio",
+  "KDE.Krita",
+]
+
+[github.widno]
+repo = "Xander-Lein/widno"
+asset_glob = "Widno-*-Windows-x64-Setup.exe"
+display_name = "Widno"
+detect_exe = "%LOCALAPPDATA%\Programs\Widno\Widno.exe"
+install_args = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART"
+
+[communication and games]
+apps = [
+  "Discord.Discord",
+  "Vendicated.Vencord",
+  "Valve.Steam",
+]

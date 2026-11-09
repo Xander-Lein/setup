@@ -1,0 +1,6 @@
+[ai_workflow]
+repository = "https://github.com/Xander-Lein/ai_workflow.git"
+ref = "main"
+
+[links]
+components = ["commands", "skills", "rules", "agents", "hooks"]

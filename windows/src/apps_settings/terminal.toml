@@ -1,0 +1,4 @@
+# Профиль MSYS2: pacman (mingw-w64-*), Alacritty (msys2_shell -mingw64 / -ucrt64)
+profile = "UCRT64"
+
+msys2_root = "C:\\msys64"

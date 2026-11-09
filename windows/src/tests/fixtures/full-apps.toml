@@ -1,0 +1,12 @@
+[winget]
+accept_source_agreements = false
+
+[utilities]
+apps = [
+  "7zip.7zip",
+]
+
+[github.widno]
+repo = "Xander-Lein/widno"
+asset_glob = "Widno-*-Windows-x64-Setup.exe"
+install_args = "/VERYSILENT"

@@ -1,0 +1,14 @@
+# APT-пакеты для download_desired_apps.sh (только установка из списка).
+
+[apt]
+packages = [
+  "zsh",
+  "git",
+  "curl",
+  "ca-certificates",
+]
+
+optional_packages = [
+  "fzf",
+  "eza",
+]

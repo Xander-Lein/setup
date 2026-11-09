@@ -1,0 +1,9 @@
+# pacman -S --needed (короткие имена; mingw-пакеты разрешаются по профилю MSYS2)
+# thefuck в репозиториях MSYS2 нет — при необходимости: pip install thefuck
+zsh
+openssh
+git
+fzf
+eza
+curl
+unzip

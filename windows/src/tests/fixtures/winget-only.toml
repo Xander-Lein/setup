@@ -1,0 +1,7 @@
+[winget]
+accept_source_agreements = true
+
+[utilities]
+apps = [
+  "7zip.7zip",
+]

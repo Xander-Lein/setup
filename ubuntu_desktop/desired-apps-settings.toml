@@ -1,0 +1,5 @@
+# Настройки dotfiles для apply_settings_to_desired_apps.sh
+# (ассоциации файлов — только Windows)
+
+[settings]
+zsh_profile = "minimal"

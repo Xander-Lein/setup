@@ -1,0 +1,18 @@
+# Личное / тяжёлое — не публикуем на GitHub
+wallpapers/
+.cursor/
+
+**/offline_apps/
+**/offline_apps/**
+
+# Служебное
+*.conf.lock
+.DS_Store
+Thumbs.db
+*.swp
+*~
+scripts/terminal-selfcheck.txt
+link_ai_workflow_cursor.ps1
+.cursor/commands/
+.cursor/skills/
+.cursor/rules/
